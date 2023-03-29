@@ -1,7 +1,7 @@
 commands:
 
 
-#git clone 				 <=== to clone repo to local
+*git clone 				 <=== to clone repo to local
 
 git remote 				 <=== to check remotes
 
