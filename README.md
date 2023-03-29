@@ -56,7 +56,7 @@ Only combine changes from same topic to single commit
 It means don't use git add . and add all the changes from different topics to single commit
 
 we can go further and use:
-1. git add -p name-of-the-file <=== -p gives us option to choose what line of changes to commit in this commit
+1. git add -p name-of-the-file <=== -p gives us option to choose what line of changes to commit in this file
 
 
 You can use fork in github to make a complete copy of others repo
