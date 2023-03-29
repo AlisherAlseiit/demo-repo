@@ -32,6 +32,14 @@ git reset hash-of-the-commit		 <=== resets to specific commit, hash you can find
 git reset --hard hash-of-the-commit      <=== resets and deletes from local file lines 
 
 
+*Logic of using pull request when working in team:*
+1. clone original repo
+2. create new branch
+3. add features, make changes, fix bugs
+4. add commit and push
+5. go to github and you will see "compare & pull request" tap
+6. create pull request
+
 
 You can use fork in github to make a complete copy of others repo
 
