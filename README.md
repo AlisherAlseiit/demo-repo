@@ -1,4 +1,4 @@
-commands:
+git commands:
 ---------------------------------------------------------------------
 
 git clone 				 <=== to clone repo to local
