@@ -35,7 +35,6 @@ git reset --hard hash-of-the-commit      <=== resets and deletes from local file
 
 You can use fork in github to make a complete copy of others repo
 
-
 echo "# some-code" >> README.md
 git init
 git add README.md
