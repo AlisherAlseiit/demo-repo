@@ -1,4 +1,4 @@
-some handy git commands:
+handy git commands:
 ---------------------------------------------------------------------
 
 git clone 				 <=== to clone repo to local
