@@ -45,10 +45,18 @@ git reset --hard hash-of-the-commit      <=== resets and deletes from local file
 You can use fork in github to make a complete copy of others repo
 
 
+creating new repo
+---
 echo "# some-code" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/AlisherAlseiit/some-code.git
+
 git push -u origin main
