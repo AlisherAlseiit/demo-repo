@@ -50,6 +50,22 @@ git rebase --abort		         <== to undo rebase
 6. create pull request
 
 
+
+Logic of merging:
+
+while you working on your local branch, your team might add new code to main branch, 
+so to not left too behind from updates you shoudl
+1. git checkout main <=== might be other branch
+2. git pull origin main <== to pull updated code to your main
+3. git checkout your-working-branch
+4. git merge main
+
+reference to that info: 
+url: https://www.youtube.com/watch?v=RGOj5yH7evk&list=PLzcSkN75M0CIX-ZPrU87Yum9zgHAIXOG3&index=3&t=3370s&ab_channel=freeCodeCamp.org
+time: 53:39
+
+
+
 Golden rules of committing
 ---
 Only combine changes from same topic to single commit
